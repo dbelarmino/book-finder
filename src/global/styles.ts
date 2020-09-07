@@ -18,16 +18,15 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: #fff;
+    background: rgba(230, 232, 239, 0.4);
     -webkit-font-smoothing: antialiased !important;
   }
 
   body, button, input, textarea, select, option, ::placeholder {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    letter-spacing: -1px;
-    line-height: 1.2;
-    color: #000;
+    font-size: 1.8rem !important;
+    color: #6E44FF;
   }
 
 

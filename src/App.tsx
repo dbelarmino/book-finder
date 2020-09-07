@@ -1,11 +1,12 @@
 import React from 'react'
 
 import GlobalStyles from './global/styles'
+import Home from './pages/Home'
 
 const App = () => (
   <>
     <GlobalStyles />
-    <h1>Book Finder</h1>
+    <Home />
   </>
 )
 
