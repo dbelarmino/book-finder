@@ -37,6 +37,11 @@ const GlobalStyles = createGlobalStyle`
   a, button{
     -webkit-tap-highlight-color: transparent !important;
   }
+
+  ::selection{
+    background: #6e44ff;
+    color: #fff;
+  }
 `
 
 export default GlobalStyles

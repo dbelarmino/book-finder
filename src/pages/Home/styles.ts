@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   width: 90%;
-  min-height: 100vh;
   max-width: 1000px;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 2rem 0;
   display: flex;
@@ -12,6 +12,7 @@ const Container = styled.div`
 
   h1 {
     margin: 3rem;
+    text-align: center;
   }
 
   form {
@@ -30,7 +31,6 @@ const Container = styled.div`
     transition: background 400ms;
   }
 
-  form input:focus,
   form input:hover {
     background: rgb(230, 232, 239);
   }
@@ -49,7 +49,6 @@ const Container = styled.div`
     transition: background 400ms, color 400ms;
   }
 
-  form button:focus,
   form button:hover {
     background: #fff;
     color: #6e44ff;
@@ -74,10 +73,6 @@ const Container = styled.div`
     flex-direction: column;
   }
 
-  main article:focus,
-  main article:hover {
-  }
-
   main article + article {
     margin-top: 1.5rem;
   }
@@ -90,7 +85,6 @@ const Container = styled.div`
     transition: opacity 400ms;
   }
 
-  main article img:focus,
   main article img:hover {
     opacity: 0.9;
   }
@@ -106,7 +100,7 @@ const Container = styled.div`
     margin-top: 2rem;
   }
 
-  main article div button {
+  main article div a {
     width: 100%;
     height: 5rem;
     padding: 0 2rem;
@@ -115,12 +109,15 @@ const Container = styled.div`
     color: #fff;
     font-weight: 700;
     border-radius: 0.5rem;
-    cursor: pointer;
+    text-decoration: none;
     transition: background 400ms, color 400ms;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  main article div button:focus,
-  main article div button:hover {
+  main article div a:hover {
     background: #fff;
     color: #6e44ff;
   }

@@ -1,12 +1,13 @@
 import React from 'react'
 
 import GlobalStyles from './global/styles'
-import Home from './pages/Home'
+
+import Routes from './routes'
 
 const App = () => (
   <>
     <GlobalStyles />
-    <Home />
+    <Routes />
   </>
 )
 
